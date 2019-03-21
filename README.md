@@ -1,8 +1,10 @@
-# About this project
+# Sam's birthday app
+
+## About this project
 
 This project creates a simple webpage that accepts a name and birthday. Depending on the current date, the webpage will either wish the person happy birthday or tell them how long it is (in days) until their birthday.
 
-# User stories
+## User stories
 
 I have extracted the following user stories:
 
@@ -36,11 +38,27 @@ So that I can enjoy using the webpage
 I want the webpage to be pleasing to the eye
 ```
 
-# Technologies used
+## Technologies used
 
 - RSpec and Capybara for unit and feature testing
 - Sinatra for building the webapp
+- HTML and CSS (not currently working) for building the return messages
 
-# Steps to install the project
+## Installing the project
+
 - `git clone git@github.com:samanthaixer/birthday_challenge.git`
 - `bundle install`
+
+## Testing the project
+
+- From the root directory, run `rspec`
+
+## Running the app
+
+- `rackup -p 4567` will run the app on port 4567
+- Go to `http://localhost:4567` to start using the app
+- **beware** the currently hideous styling - I am still trying to work out how to use CSS
+
+## How I approached the project
+
+- Checkout the `notes.md` file to find out more about my approach
