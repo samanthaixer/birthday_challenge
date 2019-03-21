@@ -9,7 +9,7 @@ I have extracted the following user stories:
 ```
 As a User
 So that I can receive a personalised message about my birthday
-I want to be able to enter my name into the webpage
+I want to be able to see my name after clicking the go button
 ```
 
 ```
@@ -35,6 +35,11 @@ As a User
 So that I can enjoy using the webpage
 I want the webpage to be pleasing to the eye
 ```
+
+# Technologies used
+
+- RSpec and Capybara for unit and feature testing
+- Sinatra for building the webapp
 
 # Steps to install the project
 - `git clone git@github.com:samanthaixer/birthday_challenge.git`
