@@ -11,7 +11,6 @@ class BirthdayMessage < Sinatra::Base
   post '/birthday_message' do
     session[:name] = params[:name]
     session[:birthday] = "#{params[:day]}/#{params[:month]}"
-    p session[:birthday]
     redirect '/display'
   end
 
