@@ -2,7 +2,7 @@ require 'sinatra/base'
 require './lib/birthday'
 
 class BirthdayMessage < Sinatra::Base
-  enable :sessions
+  enable :sessions, :static
 
   get '/' do
     erb :index

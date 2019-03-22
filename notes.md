@@ -29,3 +29,14 @@
 - I would like to account for leap years
 - I would like to double check my Ruby class and methods for single responsibility
 - I would like to amend the code so that if the person's birthday is tomorrow it gives a different message
+
+## The original brief
+
+Post-Challenge 2: Birthday App
+
+Your challenge is to build a web app that will ask the user for a name and birthday.
+
+When the user submits the form, and depending on the current date, the app will either:
+
+- wish the user happy birthday
+- tell them how long they'll have to wait until their next birthday

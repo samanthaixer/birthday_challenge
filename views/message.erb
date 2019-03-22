@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel=”stylesheet” href="/style.css"/>
-  </head>
-  <body bgcolor="pink" text-align="center">
     <% if @days == 0 %>
       <h1 style="color:green;"> Happy Birthday <%= @name %>!! </h1>
     <% else %>
-      <h1> Hello <%= @name %>, it is <%= @days %> days until your birthday! </h1>
+      Hello <%= @name %>, it is <h4><%= @days %></h4> days until your birthday!
     <% end %>
-  </body>
-</html>

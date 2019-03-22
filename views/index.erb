@@ -1,18 +1,14 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel=”stylesheet” href="/style.css"/>
-  </head>
-  <body bgcolor="powderblue" text-align="center">
-    <h1 style="color:blue;">Hello!</h1>
+    <h1>Hello!</h1>
 
-    <form action='/birthday_message' method="post">
-      What is your name? <br/>
-      <input type="text" name="name"/>
-      When is your birthday? <br/>
-      Day: <input type="text" name="day"/>
-      Month: <input type="text" name="month"/>
-      <input type="submit" value="Go!"/>
-    </form>
-  </body>
-</html>
+    <div class="form">
+      <form action='/birthday_message' method="post">
+        <h2>What is your name?</h2> <br/>
+        <input type="text" name="name"/> <br/><br/>
+        <h2>When is your birthday?</h2> <br/>
+          Day: <input type="text" name="day"/> <br/><br/>
+          Month: <input type="text" name="month"/> <br/><br/>
+          <div class="button">
+            <input type="submit" value="Go!"/>
+          </div>
+      </form>
+    </div>
