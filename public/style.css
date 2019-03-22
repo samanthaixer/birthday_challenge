@@ -14,12 +14,23 @@ h2 {
 p {
   color: red;
 }
-input {
-  color: green;
+input[type=text] {
   border-radius: 25px;
   text-align: center;
   background-color: powderblue;
   font-size: 25px;
+}
+input[type=submit] {
+  border-radius: 25px;
+  text-align: center;
+  width: 25%;
+  background-image: url('go_button.jpeg');
+  padding: 90px 120px;
+  color: white;
+  border: white;
+}
+input[type=select]{
+  font-size: 30px;
 }
 img {
   display: block;
