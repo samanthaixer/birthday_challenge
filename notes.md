@@ -25,10 +25,11 @@
 
 ## Things I would like to improve
 
-- The obvious one - how it looks! It looks TERRIBLE!
+- The obvious one - how it looks! It could look a lot better!
 - I would like to account for leap years
 - I would like to double check my Ruby class and methods for single responsibility
 - I would like to amend the code so that if the person's birthday is tomorrow it gives a different message
+- I would like to check for edge cases such as if someone enters an invalid date
 
 ## The original brief
 
